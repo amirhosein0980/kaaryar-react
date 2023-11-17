@@ -1,10 +1,12 @@
 import './ordershell.css';
-import Header from './header';
+import Header from '../Header/header';
+import List from '../List/list';
 
 function OrderShell() {
     return (
         <div className="order-shell">
-            {Header()}
+            <Header />
+            <List />
         </div>
     );
 };

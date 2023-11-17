@@ -1,0 +1,28 @@
+.list {
+    width: 100px;
+    height: calc(100% - 50px);
+    display: flex;
+    flex-wrap: wrap;
+    direction: rtl;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-item.buy {
+    background-color: rgb(90, 136, 90);
+    height: 10px;
+    padding: 15px 0 15px 0;
+    border-bottom: 1px solid black;
+    color: greenyellow;
+}
+
+.order-item.sell {
+    background-color: rgba(138, 65, 65, 0.993);
+    height: 10px;
+    padding: 15px 0 15px 0;
+    border-bottom: 1px solid black;
+    color: red;
+}

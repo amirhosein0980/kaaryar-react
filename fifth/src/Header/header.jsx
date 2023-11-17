@@ -1,5 +1,4 @@
 import './header.css';
-import List from './list';
 
 function Header() {
     return (
@@ -10,10 +9,10 @@ function Header() {
             </div>
             <div className="header-main">
                 <div className="header-item">Total (SAT)</div>
-                <div className="header-item">Amount (SAT){List()}</div>
-                <div className="header-item">PRICE (RIAL){List()}</div>
+                <div className="header-item">Amount (SAT)</div>
+                <div className="header-item">PRICE (RIAL)</div>
                 <div className="header-item">Total (SAT)</div>
-                <div className="header-item">Amount (SAT){List()}</div>
+                <div className="header-item">Amount (SAT)</div>
             </div>
         </div>
     );

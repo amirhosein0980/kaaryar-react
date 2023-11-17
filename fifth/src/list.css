@@ -1,0 +1,16 @@
+.list {
+    height: calc(100% - 50px);
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-item.buy {
+    background-color: green;
+}
+
+.order-item.sell {
+    background-color: red;
+}

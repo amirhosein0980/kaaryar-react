@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.items{
+    width: 100%;
+    height: 65%;
+    padding: 16px;
+    background-color: white;
+    overflow-y: scroll;
+}

@@ -1,0 +1,11 @@
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.order-item .total-bar {
+    height: 10px;
+    background-color: blue;
+}

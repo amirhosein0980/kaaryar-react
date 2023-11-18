@@ -3,7 +3,7 @@ import OrderShell from '../OderShell/ordershell';
 
 function App() {
   return (
-    OrderShell()
+    <OrderShell />
   );
 }
 

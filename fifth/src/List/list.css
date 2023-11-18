@@ -3,7 +3,8 @@
     height: calc(100% - 50px);
     display: flex;
     flex-wrap: wrap;
-    direction: rtl;
+    justify-content: center;
+    overflow-Y: scroll;
 }
 
 .order-item {

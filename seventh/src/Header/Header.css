@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Header{
+    width: 70%;
+    height: 17%;
+    background-color: transparent;
+    padding-top: 10px;
+    border-bottom: 1px solid white;
+}
+
+.Header h3{
+    color: rgb(83,135,89);
+}

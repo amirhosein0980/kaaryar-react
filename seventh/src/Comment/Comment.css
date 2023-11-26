@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Comment {
+    width: 70%;
+    height: 85%;
+    background-color: transparent;
+    padding-top: 10px;
+    overflow-y: scroll;
+}
+
+.Item {
+    width: 90%;
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 7px;
+    text-align: justify;
+}
+
+.child-Item {
+    width: 80%;
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 7px;
+    text-align: justify;
+}
+
+.replay {
+    border-bottom: 1px solid rgb(238,238,238);
+    padding-bottom: 10px;
+}
+
+.replay p {
+    color: rgb(83,135,89);
+    display: inline;
+}
+
+.replay p:hover {
+    cursor: pointer;
+}

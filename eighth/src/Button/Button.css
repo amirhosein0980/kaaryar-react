@@ -1,0 +1,73 @@
+.button {
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+}
+
+.button.small {
+  padding: 10px 20px;
+  font-size: 0.875rem;
+}
+
+.button.medium {
+  padding: 15px 30px;
+  font-size: 1rem;
+}
+
+.button.large {
+  padding: 20px 40px;
+  font-size: 1.25rem;
+}
+
+
+.button.filled {
+  color: white;
+  border: none;
+}
+
+.button.outlined {
+  background-color: transparent;
+}
+
+.button.primary {
+  background: #696CFF;
+  border-color: #696CFF;
+}
+
+.button.secondary {
+  background: #8592A3;
+  border-color: #8592A3;
+}
+
+.button.success {
+  background: #71DD37;
+  border-color: #71DD37;
+}
+
+.button.danger {
+  background: #FF3E1D;
+  border-color: #FF3E1D;
+}
+
+.button.warning {
+  background: #FFAB00;
+  border-color: #FFAB00;
+}
+
+.button.info {
+  background: #03C3EC;
+  border-color: #03C3EC;
+}
+
+.button.dark {
+  background: #233446;
+  border-color: #233446;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

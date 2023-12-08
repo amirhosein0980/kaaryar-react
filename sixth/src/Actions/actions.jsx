@@ -1,10 +1,10 @@
 import './actions.css';
 
-function Actions(){
+function Actions({removeClick,addinput}){
     return(
         <div className='actions'>
-            <button className='secondary'>منصرف شدم</button>
-            <button className='primary'>تایید</button>
+            <button className='secondary' onClick={removeClick}>حذف همه</button>
+            <button className='primary' onClick={addinput}>کار جدید</button>
         </div>
     );
 }

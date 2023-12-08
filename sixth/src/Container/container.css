@@ -9,3 +9,13 @@
     border-radius: 4px;
     background-color: white;
 }
+
+.newInput{
+    width: 100%;
+    outline: none;
+    border: 1px solid purple;
+    padding: 10px 5px;
+    direction: rtl;
+    font-size: 20px;
+    font-weight: 500;
+}

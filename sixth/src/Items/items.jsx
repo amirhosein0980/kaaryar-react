@@ -1,10 +1,10 @@
 import './items.css';
 import Item from '../Item/item';
 
-function Items(){
+function Items({ items }){
     return(
         <div className='items'>
-            <Item />
+            {items.map(item => <Item key={item.id} item={item} />)}
         </div>
     );
 }

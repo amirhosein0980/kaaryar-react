@@ -1,17 +1,10 @@
 import './item.css';
-import works from '../works.json';
 
-function Item() {
+function Item({ item }) {
     return (
-        <div>
-            {works.map(({ id, body }) => {
-                return (
-                    <div className='item'>
-                        <p key={id}>{body}</p>
-                        <div className='close'>x</div>
-                    </div>
-                );
-            })}
+        <div className='item' key={item.id}>
+            <p>{item}</p>
+            <div className='close'>x</div>
         </div>
     );
 }

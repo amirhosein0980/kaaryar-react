@@ -1,1 +1,13 @@
 /First
+
+// function handleInput(event) {
+//     const persianRegex = /^[\u0600-\u06FF\s]+$/;
+//     const englishRegex = /^[A-Za-z\s]+$/;
+//     if (persianRegex.test(event.target.value)) {
+//         console.log('User is typing in Persian.');
+//     } else if (englishRegex.test(event.target.value)) {
+//         console.log('User is typing in English.');
+//     } else {
+//         console.log('User is typing in another language.');
+//     }
+// }

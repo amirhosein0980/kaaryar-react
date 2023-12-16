@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.aside {
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    padding: 30px 20px;
+}
+
+.aside h1 {
+    margin-bottom: 20px;
+    color: rgb(134,140,148);
+}
+
+.aside button {
+    color: rgb(134,140,148);
+    outline: none;
+    border: 1px solid red;
+    background-color: transparent;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.aside p {
+    color: rgb(188,134,46);
+    line-height: 2rem;
+    display: block;
+}
+
+.aside p:hover {
+    cursor: pointer;
+}
